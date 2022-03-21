@@ -1,6 +1,5 @@
 //Nombre de la gramática
 grammar g;
-
 //Reglas
 prog: expr EOF;
 expr: expr('*' | '/') expr
